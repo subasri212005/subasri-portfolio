@@ -2,7 +2,7 @@
 
 Premium dark-themed responsive portfolio website showcasing my projects, skills, and contact info. Built with pure HTML, CSS & JavaScript.
 
-🔗 **Live Demo:** [[subasri-portfolio.vercel.app](https://subasri-portfolio.vercel.app](https://subasri-portfolio-six.vercel.app/)) 
+🔗 **Live Demo:** [https://subasri-portfolio-six.vercel.app/] 
 
 ---
 
