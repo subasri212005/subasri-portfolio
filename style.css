@@ -1079,3 +1079,149 @@ nav a:hover {
   color: #0b1120;
   transform: translateX(5px);
 }
+/* ==== MOBILE RESPONSIVE FIX ==== */
+@media (max-width: 992px) {
+  .contact-section {
+    padding: 80px 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-flex {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 60px 20px;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+  }
+  
+  .title-underline {
+    margin-bottom: 40px;
+  }
+  
+  .contact-flex {
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .contact-info,
+  .contact-form {
+    min-width: 100%;
+    padding: 25px;
+  }
+  
+  .contact-info h3,
+  .contact-form h3 {
+    font-size: 1.5rem;
+  }
+  
+  .info-card {
+    padding: 14px 16px;
+    gap: 14px;
+  }
+  
+  .info-card .icon {
+    min-width: 42px;
+    min-height: 42px;
+    font-size: 1.1rem;
+  }
+  
+  .social-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .social-card {
+    padding: 20px;
+  }
+  
+  .social-icon {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding: 50px 15px;
+  }
+  
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+  
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+    border-radius: 18px;
+  }
+  
+  .info-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+  }
+}
+/* Footer - 100% Mobile Responsive */
+.footer-simple {
+  background: #0a0f1f;
+  border-top: 1px solid rgba(0, 230, 255, 0.1);
+  padding: 30px 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-simple p {
+  margin: 0;
+  color: #b0b5c5;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .footer-simple {
+    padding: 25px 15px;
+  }
+  
+  .footer-simple p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .footer-simple {
+    padding: 20px 12px;
+  }
+  
+  .footer-simple p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 360px) {
+  .footer-simple {
+    padding: 18px 10px;
+  }
+  
+  .footer-simple p {
+    font-size: 0.75rem;
+  }
+}
