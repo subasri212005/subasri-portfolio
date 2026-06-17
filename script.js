@@ -1,4 +1,4 @@
-// 1. Page load la top ku scroll + hash remove - CONTACT JUMP FIX
+// CONTACT JUMP FIX
 window.addEventListener("load", () => {
   if (window.location.hash) {
     history.replaceState(null, null, window.location.pathname);
@@ -134,12 +134,12 @@ typeEffect();
 
 // 4. Resume Button Function
 function viewAndDownload() {
-  window.open("resume.pdf", "_blank");
+  window.open("Subasri resume.pdf", "_blank");
 
   setTimeout(() => {
     const link = document.createElement("a");
-    link.href = "resume.pdf";
-    link.download = "Subasri_Resume.pdf";
+    link.href = "Subasri resume.pdf";
+    link.download = "Subasri resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

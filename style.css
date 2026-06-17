@@ -232,7 +232,7 @@ nav a:hover {
 .about-image {
   width: 350px;
   height: 350px;
-  background: url("about.jpg") center/cover no-repeat;
+  background: url("About.jpg") center/cover no-repeat;
   border-radius: 50%;
   border: 8px solid transparent;
   background-origin: border-box;
@@ -1078,17 +1078,4 @@ nav a:hover {
   background: #00e6ff;
   color: #0b1120;
   transform: translateX(5px);
-}
-.footer-simple {
-  text-align: center;
-  padding: 30px 20px;
-  background: rgba(11, 17, 32, 0.9);
-  border-top: 1px solid rgba(0, 230, 255, 0.2);
-  margin-top: 80px;
-}
-
-.footer-simple p {
-  color: var(--muted);
-  font-size: 0.9rem;
-  margin: 0;
 }
